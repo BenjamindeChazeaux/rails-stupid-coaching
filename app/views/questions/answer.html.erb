@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Coach's Answer</h1>
+  
+  <div class="question">
+    <p><em><%= @question %></em></p>
+    <p><em>- You</em></p> 
+  </div>
+
+  <div class="answer">
+    <p><strong><%= @answer %></strong></p>
+    <p><em>- Your Coach</em></p>
+  </div>
+
+  <%= link_to "Ask another question", ask_path, class: "button" %>
+</div> 
